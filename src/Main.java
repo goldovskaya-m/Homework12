@@ -5,7 +5,7 @@ public class Main {
         Author author2 = new Author("Александр", " Грин");
         Book book = new Book("Медный всадник", author, 1883);
         Book book2 = new Book("В снегу", author2, 1910);
-        System.out.println(author.firstName);
+        System.out.printf(author.firstName);
         System.out.println(author.lastName);
         System.out.println(book.title);
         System.out.println(book.year);
