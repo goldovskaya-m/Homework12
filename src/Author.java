@@ -6,11 +6,11 @@ public class Author {
         this.lastName = lastName;
     }
 
-    public String getFirstName(){
+    private String getFirstName(){
         return this.firstName;
     }
 
-    public  String getLastName(){
+    private   String getLastName(){
         return this.lastName;
     }
 }
